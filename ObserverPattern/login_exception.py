@@ -64,7 +64,7 @@ if __name__ == '__main__':
     # 註冊sms異常服務
     acount.addObserver(SmsSender)
     # 註冊mail異常服務
-    # acount.addObserver(mailSender)
+    acount.addObserver(mailSender)
     acount.login('andy', '127.0.0.1', datetime.today())
     acount.login('andy', '10.15.73.38', datetime.now())
 # %%
